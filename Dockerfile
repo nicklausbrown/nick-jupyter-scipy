@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:latest
+FROM jupyter/scipy-notebook:4cdbc9cdb7d1
 
 RUN conda install -y -c pyviz/label/dev pyviz
 RUN pip install -U nltk
